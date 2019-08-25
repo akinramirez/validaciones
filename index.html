@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Validaciones By Akin Ramirez</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <h3>Validaciones By Akin Ramirez</h3>
+    <hr>
+    <div>
+        <p>Validacion 3 Caracter repetidos</p>
+        <input type="text" onkeypress="return validacion3caractRepet(event);" id="txtGenerico">
+        <span id="validacion1"></span>
+    </div>
+    <br>
+    <hr>
+    <div>
+        <p>Validacion numero de telefono Honduras (Se excluye en el primer valor numero diferente a 2,3,5,8,9)</p>
+        <p>Ejemplo de formato 2236-6852, 3344-5678, 5245-5678, 8889-3455, 9976-3412</p>
+        <input type="text" id="txtNumeroTel" placeholder="">
+        <button type="button" onclick="validarTelefono();">Validar</button>
+        <span id="validacion2"></span>
+    </div>
+    <hr>
+
+    <p>Sitio web para verificar expresiones regulares</p>
+    <a href="https://www.debuggex.com/r/X43uNbM0EERtm8NF">www.debuggex.com</a>
+    <script src='main.js'></script>
+</body>
+
+</html>
